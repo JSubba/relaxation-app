@@ -61,7 +61,7 @@ start.addEventListener("click", () => {
     circleProgress.style.opacity = 1;
     audio.play();
     setTimeout(() => {
-        instructions.innerHTML = "Let's Begin ...";
+        instructions.innerHTML = "Now Relax ...";
         growCircle();
         updateBreathText();
         relaxationApp();
